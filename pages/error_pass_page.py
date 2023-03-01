@@ -7,10 +7,10 @@ from selenium.webdriver.common.by import By
 
 
 class Home_page(Base_page):
-    EMAIL = (By.XPATH, "//input[@placeholder='Enter your email']")
-    PASS = (By.XPATH, "//input[@placeholder='Enter your password']")
+    # EMAIL = (By.XPATH, "//input[@placeholder='Enter your email']")
+    # PASS = (By.XPATH, "//input[@placeholder='Enter your password']")
     ERROR_MESSAGE =(By.XPATH, '//p[text()="Please enter your password!"]')
-    LOGIN_BUTTON = (By.CLASS_NAME, 'css-17qmje5')
+    # LOGIN_BUTTON = (By.CLASS_NAME, 'css-17qmje5')
 
 
     def navigate_to_jules_app(self):

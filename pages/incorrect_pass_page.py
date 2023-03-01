@@ -4,9 +4,9 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.by import By
 
 class Incorrect_pass(Base_page):
-    EMAIL = (By.XPATH, "//input[@placeholder='Enter your email']")
-    PASS = (By.XPATH, "//input[@placeholder='Enter your password']")
-    LOGIN_BUTTON = (By.CLASS_NAME, 'MuiButton-label')
+    # EMAIL = (By.XPATH, "//input[@placeholder='Enter your email']")
+    # PASS = (By.XPATH, "//input[@placeholder='Enter your password']")
+    # LOGIN_BUTTON = (By.CLASS_NAME, 'MuiButton-label')
     ERROR_INCORRECT_PASS = (By.XPATH, "//span[text()='Invalid email/password combination']")
 
     def input_email(self):
